@@ -10,7 +10,7 @@ export function addComment(text) {
         type: ADD_COMMENT,
         text,
         id: uuid.v4()
-    }
+    };
 }
 
 export function removeComment(commentId) {
